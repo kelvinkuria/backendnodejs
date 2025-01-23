@@ -1,0 +1,24 @@
+###
+
+GET http://localhost:5798
+###
+GET http://localhost:5798/dashboard
+
+###
+POST http://localhost:5798/api/data
+Content-Type: application/json
+
+{
+    "name": "Kelvin Kuria",
+    "age": 25
+}
+
+### DELETE END POINT
+
+DELETE http://localhost:5798/api/data
+Content-Type: application/json
+
+{
+    "name": "Doe"
+}
+
