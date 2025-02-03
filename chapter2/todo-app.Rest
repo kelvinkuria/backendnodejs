@@ -1,0 +1,21 @@
+###
+POST http://localhost:5001/auth/register
+Content-Type: application/json
+
+{
+
+"username":"hakebc ",
+"password":"meapxbt"
+
+}
+
+###
+POST http://localhost:5000/auth/login
+Content-Type: application/json
+
+{
+
+"username":"jeet",
+"password":"meat"
+
+}
